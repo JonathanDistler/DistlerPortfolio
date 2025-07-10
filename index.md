@@ -3,9 +3,9 @@ layout: default
 title: Docs
 ---
 
-# Welcome to the Docs
+# Welcome to Jonathan Distler's Portfolio
 
-This site is a portfolio for Jonathan Distler. Use the links below to explore:
+This site is a portfolio for Jonathan Distler and his excellent engineering work. Use the links below to explore:
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem; margin: 2rem 0;">
   <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary btn-lg" style="width: 220px;">Projects</a>
