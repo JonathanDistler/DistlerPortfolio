@@ -39,7 +39,7 @@ Looking ahead, I am thrilled to continue exploring the forefront of engineering 
 Cornell University; Ithaca, New York *(Expected Graduation May 2027)*  
 - **Major**: Mechanical Engineering  
 - **Minor**: Physics  
-- **GPA**: 3.62
+- **GPA**: 3.759
 - **Selected Coursework**: Electricity and Magnetism Honors, Lasers and Photonics, Special Relativity, Independent Research
 
 ---
@@ -47,7 +47,7 @@ Cornell University; Ithaca, New York *(Expected Graduation May 2027)*
 # Skills  
 - **General Software**: C++, Python, Matlab, Markdown, AutoCAD 25, Java, Fusion 360  
 - **Data Analysis**: Python for Data Analysis, Numpy, Data Retrieval, Data Analysis, JSON, API  
-- **Simulation Systems**: Linux, ROS (Robot Operating System)  
+- **Simulation Systems**: Linux, ROS (Robot Operating System), MuJoCo
 - **Interpersonal**: Teamwork, Constructive Feedback, Academic Writing, Engaging Presentation Skills  
 - **Process**: Rapid Prototyping, Simulation Techniques, Methodology, Multidisciplinary Research  
 
