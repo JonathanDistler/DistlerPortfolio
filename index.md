@@ -4,8 +4,8 @@ title: Docs
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <h1>Welcome to Stormwater Solutions LLC</h1>
-  <p>This site is a showcase for Stormwater Solutions LLC and our mission to better the New River Valley:</p>
+  <h1>Welcome to Jonathan Distler's Portfolio LLC</h1>
+  <p>This site is a showcase for Jonathan Distler and his academic pursuits:</p>
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem; margin: 2rem 0;">
