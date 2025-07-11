@@ -11,9 +11,10 @@ As a member of the Systems Subteam on **Cornell Hyperloop**, I contribute to the
 
 ## Battery Pack Enclosure
 
-![Battery Pack Enclosure Render 1](https://github.com/user-attachments/assets/456c7be4-d639-48b7-8e6b-06cc4b262aaf)
-![Battery Pack Enclosure Render 2](https://github.com/user-attachments/assets/61e9484d-5221-40ed-9128-811ed3628478)
-![Battery Pack Enclosure Render 3](https://github.com/user-attachments/assets/898779d9-0073-4124-b687-bf97f456f5d2)
+<img src="https://github.com/user-attachments/assets/456c7be4-d639-48b7-8e6b-06cc4b262aaf" alt="Battery Pack Enclosure Render 1" width="300"/>
+<img src="https://github.com/user-attachments/assets/61e9484d-5221-40ed-9128-811ed3628478" alt="Battery Pack Enclosure Render 2" width="300"/>
+<img src="https://github.com/user-attachments/assets/898779d9-0073-4124-b687-bf97f456f5d2" alt="Battery Pack Enclosure Render 3" width="300"/>
+
 
 ## Battery Pack Enclosure FEA
 
