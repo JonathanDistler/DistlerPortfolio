@@ -11,9 +11,10 @@ As part of a class project for **Mechanical Design (MAE 2250)**, I was tasked wi
 
 ![Sketch](https://github.com/user-attachments/assets/c50f3753-8085-4589-8e63-f6b7b236c859)
 
-![Top_Watch](https://github.com/user-attachments/assets/603d6336-1bd5-400f-808a-8a3c41ae9f22)
-![Side_Watch](https://github.com/user-attachments/assets/da8bac64-f5b4-4017-bc37-f07f6d38c668)
-![Orthographic_Watch](https://github.com/user-attachments/assets/de22a7a9-a32a-4f9e-8263-a322559d25af)
+<img src="https://github.com/user-attachments/assets/603d6336-1bd5-400f-808a-8a3c41ae9f22" alt="Top_Watch" width="300"/><br>
+<img src="https://github.com/user-attachments/assets/da8bac64-f5b4-4017-bc37-f07f6d38c668" alt="Side_Watch" width="300"/><br>
+<img src="https://github.com/user-attachments/assets/de22a7a9-a32a-4f9e-8263-a322559d25af" alt="Orthographic_Watch" width="300"/>
+
 
 My initial process involved dimensioning each component of the watch, from the circumference and diameter of the face to the depth of the dial. Then, I developed unique "parts" for each system, involving core geometries and time-saving processes (i.e., mirroring).
 
