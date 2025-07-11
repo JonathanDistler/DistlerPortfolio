@@ -14,10 +14,16 @@ As part of a class project for **Mechanical Design (MAE 2250)**, I was tasked wi
 </div>
 
 <br><br><br>
-<div style="margin-top: 50px;">
-  <img src="https://github.com/user-attachments/assets/603d6336-1bd5-400f-808a-8a3c41ae9f22" alt="Top_Watch" width="400"/><br><br>
-  <img src="https://github.com/user-attachments/assets/da8bac64-f5b4-4017-bc37-f07f6d38c668" alt="Side_Watch" width="400"/><br><br>
-  <img src="https://github.com/user-attachments/assets/de22a7a9-a32a-4f9e-8263-a322559d25af" alt="Orthographic_Watch" width="400"/>
+<div style="margin-top: 50px; text-align: center;">
+  <div style="display: inline-block; margin: 0 10px;">
+    <img src="https://github.com/user-attachments/assets/603d6336-1bd5-400f-808a-8a3c41ae9f22" alt="Top_Watch" width="300"/>
+  </div>
+  <div style="display: inline-block; margin: 0 10px;">
+    <img src="https://github.com/user-attachments/assets/da8bac64-f5b4-4017-bc37-f07f6d38c668" alt="Side_Watch" width="300"/>
+  </div>
+  <div style="display: inline-block; margin: 0 10px;">
+    <img src="https://github.com/user-attachments/assets/de22a7a9-a32a-4f9e-8263-a322559d25af" alt="Orthographic_Watch" width="300"/>
+  </div>
 </div>
 
 
