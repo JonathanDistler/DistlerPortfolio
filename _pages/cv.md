@@ -13,7 +13,7 @@ permalink: /cv/
 </div>
 
 Transcript:
-[Distler Transcript Spring 2025]({{ "/assets/Distler_Transcript_Spring_2025.pdf" | relative_url }})
+[Distler Transcript Spring 2025]({{ "/assets/Distler_Transcript_2025.pdf" | relative_url }})
 
 
 
