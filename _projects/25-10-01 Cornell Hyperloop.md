@@ -24,9 +24,9 @@ As a member of the Systems Subteam on **Cornell Hyperloop**, I contribute to the
 
 ## Electrical Harness (Front, Isometric, Side)
 
-<img src="https://github.com/user-attachments/assets/366c7cbb-7987-4516-a59f-2293e20f82cd" alt="Harness Front" height="150"/>
-<img src="https://github.com/user-attachments/assets/fd2b0485-cbe4-4de7-85a1-7dbbe87e61a1" alt="Harness Isometric" height="150"/>
-<img src="https://github.com/user-attachments/assets/c41a23d1-d9cb-46f2-8ed5-09b502c40cd1" alt="Harness Side" height="150"/>
+<img src="https://github.com/user-attachments/assets/366c7cbb-7987-4516-a59f-2293e20f82cd" alt="Harness Front" height="250"/>
+<img src="https://github.com/user-attachments/assets/fd2b0485-cbe4-4de7-85a1-7dbbe87e61a1" alt="Harness Isometric" height="250"/>
+<img src="https://github.com/user-attachments/assets/c41a23d1-d9cb-46f2-8ed5-09b502c40cd1" alt="Harness Side" height="250"/>
 
 
 ## Microelectronic Holders
