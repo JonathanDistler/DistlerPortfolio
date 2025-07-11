@@ -4,7 +4,7 @@ title: Docs
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <h1>Welcome to Jonathan Distler's Portfolio LLC</h1>
+  <h1>Welcome to Jonathan Distler's Portfolio</h1>
   <p>This site is a showcase for Jonathan Distler and his academic pursuits:</p>
 </div>
 
