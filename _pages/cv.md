@@ -86,7 +86,9 @@ Virginia Tech Department of Mechanical Engineering; Blacksburg, Virginia
 
 # Awards and Extracurricular Activities  
 - **Woods Excellence Award**  
-- **Switch the Pitch Hackathon**: AI Technical Solution Award Winner  
+- **Switch the Pitch Hackathon**: AI Technical Solution Award Winner
+- **Cornell Engineering Undergraduate International Summer Research Grant Recipient**
+- **Tatum Career Award Recipient**
 - **Cornell Men’s Club Rugby**  
 - **Language Expansion Program Participant (Spanish)**  
 
