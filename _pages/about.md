@@ -23,6 +23,7 @@ I'm an avid reader. So far this year I've read the following books:
 - *The Sun Also Rises* by Ernest Hemingway  
 - *Franz Kafka: The Complete Stories* edited by Nahum N. Glatzer  
 - *Treasure Island* by Robert Louis Stevenson
+- *Butter* by Asako Yuzuki  
 
 
 Take a look at [my projects]({{ '/projects/' | relative_url }}) and [my CV]({{ '/cv/' | relative_url }}). 
