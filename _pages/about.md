@@ -26,6 +26,7 @@ I'm an avid reader. So far this year I've read the following books:
 - *Butter* by Asako Yuzuki
 - *The Old Man and the Sea* by Ernest Hemingway  
 - *Intermezzo* by Sally Rooney
-- *All the Light We Cannot See* by Anthony Doerr  
+- *All the Light We Cannot See* by Anthony Doerr
+- *The Creative Act* by Rick Rubin  
 
 Take a look at [my projects]({{ '/projects/' | relative_url }}) and [my CV]({{ '/cv/' | relative_url }}). 
