@@ -27,6 +27,7 @@ I'm an avid reader. So far this year I've read the following books:
 - *The Old Man and the Sea* by Ernest Hemingway  
 - *Intermezzo* by Sally Rooney
 - *All the Light We Cannot See* by Anthony Doerr
-- *The Creative Act* by Rick Rubin  
+- *The Creative Act* by Rick Rubin
+- *The Selfish Gene* by Richard Dawkins  
 
 Take a look at [my projects]({{ '/projects/' | relative_url }}) and [my CV]({{ '/cv/' | relative_url }}). 
