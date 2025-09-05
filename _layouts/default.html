@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 
-<body>
+<body class="bg-light-blue">
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top animate-navbar" data-aos="fade-down">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white bg-opacity-75 shadow-sm fixed-top animate-navbar" data-aos="fade-down">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold text-primary" href="{{ "/" | relative_url }}">{{ site.title }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
@@ -49,15 +49,11 @@
     {{ content }}
   </main>
 
-  <button id="themeToggle" class="theme-toggle" title="Toggle theme">
-    <i class="bi bi-moon-fill" id="themeIcon"></i>
-  </button>
-
   <button id="backToTop" class="btn btn-primary rounded-circle shadow back-to-top" title="Back to top">
     <i class="bi bi-arrow-up"></i>
   </button>
 
-  <footer class="footer text-center py-3 mt-5 animate-footer" data-aos="fade-up">
+  <footer class="footer bg-white bg-opacity-75 text-primary text-center py-3 mt-5 animate-footer" data-aos="fade-up">
     <div class="container">
       &copy; 2024 {{ site.title }}. All rights not reserved.
     </div>
@@ -67,33 +63,6 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({ once: true, duration: 800 });
-    
-    // Theme toggle functionality
-    const themeToggle = document.getElementById('themeToggle');
-    const themeIcon = document.getElementById('themeIcon');
-    const body = document.body;
-    
-    // Check for saved theme preference or default to dark
-    const currentTheme = localStorage.getItem('theme') || 'dark';
-    if (currentTheme === 'light') {
-      body.classList.add('light-theme');
-      themeIcon.className = 'bi bi-sun-fill';
-    }
-    
-    themeToggle.addEventListener('click', function() {
-      if (body.classList.contains('light-theme')) {
-        // Switch to dark theme
-        body.classList.remove('light-theme');
-        themeIcon.className = 'bi bi-moon-fill';
-        localStorage.setItem('theme', 'dark');
-      } else {
-        // Switch to light theme
-        body.classList.add('light-theme');
-        themeIcon.className = 'bi bi-sun-fill';
-        localStorage.setItem('theme', 'light');
-      }
-    });
-    
     // Back to top button
     const backToTop = document.getElementById('backToTop');
     window.onscroll = function() {

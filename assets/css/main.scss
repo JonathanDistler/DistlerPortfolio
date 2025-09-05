@@ -1,36 +1,21 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
----
+--- 
 
-// Dark blue theme variables (default)
-$primary: #1e3a8a;
-$secondary: #3b82f6;
-$dark-blue: #0f172a;
+// Light blue theme variables
+$primary: #3498db;
+$secondary: #6ec6f3;
 $light-blue: #eaf6fb;
 $white: #fff;
 $dark: #222;
-$light-text: #f1f5f9;
-$dark-text: #1e293b;
 
-// Light blue theme variables
-$light-primary: #3498db;
-$light-secondary: #6ec6f3;
-$light-bg: #eaf6fb;
-
-// Dark theme (default)
-body {
-  background: linear-gradient(135deg, $dark-blue 0%, #1e293b 100%);
+body.bg-light-blue {
+  background: linear-gradient(135deg, $light-blue 0%, $white 100%);
   min-height: 100vh;
   font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
-  color: $light-text;
-  transition: background 0.5s, color 0.5s;
-}
-
-// Light theme
-body.light-theme {
-  background: linear-gradient(135deg, $light-bg 0%, $white 100%);
-  color: $dark-text;
+  color: $dark;
+  transition: background 0.5s;
 }
 
 .navbar {
@@ -38,16 +23,13 @@ body.light-theme {
   margin-top: 1rem;
   margin-bottom: 2rem;
   transition: background 0.5s, box-shadow 0.5s;
-  background: rgba(30, 58, 138, 0.9) !important;
-  backdrop-filter: blur(10px);
 }
 .navbar .navbar-brand {
   font-size: 2rem;
   letter-spacing: 1px;
-  color: $light-text !important;
 }
 .navbar .nav-link {
-  color: $light-text !important;
+  color: $primary !important;
   font-weight: 500;
   margin-left: 1rem;
   transition: color 0.3s, background 0.3s;
@@ -58,36 +40,14 @@ body.light-theme {
   color: $white !important;
 }
 
-// Light theme navbar
-body.light-theme .navbar {
-  background: rgba(255, 255, 255, 0.9) !important;
-}
-body.light-theme .navbar .navbar-brand {
-  color: $light-primary !important;
-}
-body.light-theme .navbar .nav-link {
-  color: $light-primary !important;
-}
-body.light-theme .navbar .nav-link.active, 
-body.light-theme .navbar .nav-link:hover {
-  background: $light-secondary;
-  color: $white !important;
-}
-
 .hero-section {
   background: linear-gradient(120deg, $primary 0%, $secondary 100%);
   color: $white;
   border-radius: 2rem;
   margin-top: 6rem;
   margin-bottom: 2rem;
-  box-shadow: 0 8px 32px rgba(30, 58, 138, 0.3);
-  animation: fadeInHero 1.2s;
-}
-
-// Light theme hero
-body.light-theme .hero-section {
-  background: linear-gradient(120deg, $light-primary 0%, $light-secondary 100%);
   box-shadow: 0 8px 32px rgba(52,152,219,0.15);
+  animation: fadeInHero 1.2s;
 }
 @keyframes fadeInHero {
   from { opacity: 0; transform: translateY(40px); }
@@ -105,87 +65,28 @@ body.light-theme .hero-section {
 }
 
 .card, .project-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: $white;
   border-radius: 1.5rem;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 24px rgba(52,152,219,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
   margin-bottom: 2rem;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .card:hover, .project-card:hover {
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-}
-
-// Light theme cards
-body.light-theme .card, 
-body.light-theme .project-card {
-  background: $white;
-  box-shadow: 0 4px 24px rgba(52,152,219,0.08);
-  border: 1px solid rgba(52,152,219,0.1);
-}
-body.light-theme .card:hover, 
-body.light-theme .project-card:hover {
   box-shadow: 0 8px 32px rgba(52,152,219,0.18);
 }
 
 .footer {
-  background: rgba(30, 58, 138, 0.9);
-  color: $light-text;
+  background: $light-blue;
+  color: $primary;
   border-radius: 1rem 1rem 0 0;
-  box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -2px 16px rgba(52,152,219,0.08);
   font-size: 1.1rem;
   animation: fadeInFooter 1.2s;
-  backdrop-filter: blur(10px);
-}
-
-// Light theme footer
-body.light-theme .footer {
-  background: $light-bg;
-  color: $light-primary;
-  box-shadow: 0 -2px 16px rgba(52,152,219,0.08);
 }
 @keyframes fadeInFooter {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: none; }
-}
-
-// Theme toggle button
-.theme-toggle {
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  z-index: 1000;
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.2rem;
-  background: rgba(30, 58, 138, 0.9);
-  color: $light-text;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-}
-
-.theme-toggle:hover {
-  background: $secondary;
-  transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
-}
-
-// Light theme toggle
-body.light-theme .theme-toggle {
-  background: rgba(255, 255, 255, 0.9);
-  color: $light-primary;
-  box-shadow: 0 4px 16px rgba(52,152,219,0.15);
-}
-
-body.light-theme .theme-toggle:hover {
-  background: $light-secondary;
-  box-shadow: 0 6px 20px rgba(52,152,219,0.25);
 }
 
 // Back to top button
@@ -205,7 +106,7 @@ body.light-theme .theme-toggle:hover {
 .back-to-top:hover {
   background: $secondary;
   color: $white;
-  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 4px 16px rgba(52,152,219,0.18);
 }
 
 // Animations for AOS
